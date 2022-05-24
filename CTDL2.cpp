@@ -6,7 +6,7 @@ struct stack{
     int data[100];
 };
 void SetupStack(stack &s){
-    s.top=100;
+    s.top=-1;
 }
 bool isEmpty(stack s){
     if (s.top==-1) return true;
